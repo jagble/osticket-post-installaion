@@ -86,7 +86,14 @@ Now we’ll define the access levels for our agents by creating roles.
 - **Permissions:**
   - check everything but delete
 
-> 💡 You can customize the specific permissions based on how much control you want each role to have.
+
+🗑️ **Delete Default Roles**
+
+1. Navigate to the **Admin Panel** → **Agents** → **Roles**.
+2. Delete the following default roles:
+   - Expanded Access
+   - Limited Access
+   - View Only
 
 
 ---
@@ -95,17 +102,16 @@ Now we’ll define the access levels for our agents by creating roles.
 
 Now that the departments and roles are in place, we’ll set up teams and assign agents accordingly.
 
----
 
 #### 🔹 Create Teams
-Navigate to **Admin Panel** → **Agents** → **Teams** and create the following teams:
+Navigate to **Admin Panel** → **Agents** → **Teams** and create the following team:
 
-- **IT Support**  
-  Handles general support issues like password resets, computer problems, and basic troubleshooting.
 
 - **Security Ops**  
   Focuses on cybersecurity threats, breach response, and incident escalation.
 
+- Leave default team **Level 1 Support** 
+  Handles general support issues like password resets, computer problems, and basic troubleshooting.
 ---
 
 #### 🔹 Create Agents
