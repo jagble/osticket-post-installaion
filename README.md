@@ -47,6 +47,7 @@ We’re starting by setting up the core department structure for **CyberFix**.
 - Manages virtual machines, Azure resources, and any cloud-related operations
 - Useful for agents specializing in virtual systems and deployments
 
+#### 🗑️ Delete Maintenance department
 ---
 
 > 📝 **Note:** The **Support** department is created by default in osTicket — no need to create it manually.
@@ -111,6 +112,7 @@ Navigate to **Admin Panel** → **Agents** → **Teams** and create the followin
   Focuses on cybersecurity threats, breach response, and incident escalation.
 
 - Leave default team **Level 1 Support** 
+
   Handles general support issues like password resets, computer problems, and basic troubleshooting.
 ---
 
@@ -126,14 +128,13 @@ Go to **Admin Panel** → **Agents** → **Add New Agent** and create the follow
 
 - **Tyrese Haliburton**  
   - **Role:** Tier 1 Tech  
-  - **Department:** IT Support  
-  - **Team:** IT Support  
+  - **Department:** Support  
+  - **Team:** Level 1 Support  
   - **Permissions:** View and respond to tickets
 
 - **Moses Moody**  
   - **Role:** Intern  
-  - **Department:** IT Support  
-  - **Team:** IT Support  
+  - **Department:** Support   
   - **Permissions:** View-only (can see ticket statuses)
 
 - **Klay Thompson**  
